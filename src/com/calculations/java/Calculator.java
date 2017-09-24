@@ -22,7 +22,7 @@ public class Calculator {
 		Student student = new Student();
 		student.setFee(1000.00f);
 		student.setMonthCount(5);
-		//student.setFine(55.00f);
+		
 		Calculator fc=new Calculator();
 		float dueAmount=fc.calculateFee(student);
 		System.out.println("Fee of Student is: "+dueAmount);
